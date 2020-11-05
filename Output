@@ -1,0 +1,252 @@
+(base) girish@girish-HP-Notebook:~/Documents/mahe/Lectures/Deepak Sir - ADS/Assignments/Solution/StudentAdmission/sources$ gcc student.c -o main main.c
+(base) girish@girish-HP-Notebook:~/Documents/mahe/Lectures/Deepak Sir - ADS/Assignments/Solution/StudentAdmission/sources$ ./main
+Initialize the courses 
+BDL Course: 1
+
+ML Course: 1
+
+ES Course: 1
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+1
+
+Enter the Student Details:
+
+Enter the Student Name: girish
+Enter the Student Program Name (BDA/ML/ES): bda
+Enter the Student Emai Id: girish@gmail.com
+Enter the Student Entrance Test Rank: 40
+Enter the Student UG Grade: 4
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+1
+
+Enter the Student Details:
+
+Enter the Student Name: kumar
+Enter the Student Program Name (BDA/ML/ES): bda
+Enter the Student Emai Id: kumar@gmail.com
+Enter the Student Entrance Test Rank: 3
+Enter the Student UG Grade: 8
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+1
+
+Enter the Student Details:
+
+Enter the Student Name: guru
+Enter the Student Program Name (BDA/ML/ES): bda
+Enter the Student Emai Id: guru@gmail.com
+Enter the Student Entrance Test Rank: 1
+Enter the Student UG Grade: 10
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+girish		girish@gmail.com		bda		40		4.000000				0
+kumar		kumar@gmail.com		bda		3		8.000000				0
+guru		guru@gmail.com		bda		1		10.000000				0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+4
+
+Program				Seats		Filled Seats	Available Seats
+
+BDA				1		0		1
+ML				1		0		1
+ES				1		0		1
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+5
+Student List arranged as per Rank
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+guru		guru@gmail.com		bda		1		10.000000				0
+kumar		kumar@gmail.com		bda		3		8.000000				0
+girish		girish@gmail.com		bda		40		4.000000				0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+3
+Seat Alloted as per Students Rank
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+guru		guru@gmail.com		bda		1		10.000000		alloted		201046001
+kumar		kumar@gmail.com		bda		3		8.000000		waiting		0
+girish		girish@gmail.com		bda		40		4.000000		rejected		0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+4
+
+Program				Seats		Filled Seats	Available Seats
+
+BDA				1		1		0
+ML				1		0		1
+ES				1		0		1
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+6
+
+Please enter the 2 additional programs for seat allotment (BDL/ML/ES)
+Select course except bda 
+
+Course 1: ml
+
+Course 2: es
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+guru		guru@gmail.com		bda		1		10.000000		alloted		201046001
+kumar		kumar@gmail.com		bda		3		8.000000		waiting		0
+girish		girish@gmail.com		bda		40		4.000000		rejected		0
+kumar		kumar@gmail.com		ml		3		8.000000				0
+kumar		kumar@gmail.com		es		3		8.000000				0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+5
+Student List arranged as per Rank
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+guru		guru@gmail.com		bda		1		10.000000		alloted		201046001
+kumar		kumar@gmail.com		bda		3		8.000000		waiting		0
+kumar		kumar@gmail.com		ml		3		8.000000				0
+kumar		kumar@gmail.com		es		3		8.000000				0
+girish		girish@gmail.com		bda		40		4.000000		rejected		0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+3
+Seat Alloted as per Students Rank
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+2
+
+Name		Email			Program		Rank		UGGrade		AdmissionStatus		RegNumber
+guru		guru@gmail.com		bda		1		10.000000		alloted		201046001
+kumar		kumar@gmail.com		bda		3		8.000000		waiting		0
+kumar		kumar@gmail.com		ml		3		8.000000		alloted		201056001
+kumar		kumar@gmail.com		es		3		8.000000		alloted		201036001
+girish		girish@gmail.com		bda		40		4.000000		rejected		0
+
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+4
+
+Program				Seats		Filled Seats	Available Seats
+
+BDA				1		1		0
+ML				1		1		0
+ES				1		1		0
+
+Press 1 to enter the student details
+Press 2 to display the student details
+Press 3 to Allot seats
+Press 4 to see seats filled in each program
+Press 5 to arrange the Student List as per Rank
+Press 6 to assign available to seats for Waitlisting students
+^C
+(base) girish@girish-HP-Notebook:~/Documents/mahe/Lectures/Deepak Sir - ADS/Assignments/Solution/StudentAdmission/sources$ 
+
